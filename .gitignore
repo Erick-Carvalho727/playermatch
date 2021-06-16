@@ -1,0 +1,4 @@
+node_modules/
+src/
+appsettings.ts
+.DS_Store

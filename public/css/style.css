@@ -1,0 +1,532 @@
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -90000px 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #414141;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/public/imagens/fundo.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-position: center;
+    background-size: cover;
+    animation: slide 400s linear infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    min-height: 480px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    letter-spacing: 1.4px;
+}
+
+.sign-in-container h1 {
+    color: #3d80d9;
+    margin-bottom: 20px;
+}
+
+.sign-up-container h1 {
+    color: #3d80d9;;
+    margin-bottom: 20px;
+}
+
+.sign-up-container2 h1 {
+    color: #3d80d9;;
+    margin-bottom: 20px;
+}
+
+.sign-up-container3 h1 {
+    color: #3d80d9;;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+a {
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.form-container form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+    outline-color: #3d80d9;;
+    border-radius: 10px;
+}
+
+.sign-up-container button {
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #3d80d9;;
+    background: #3d80d9;;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    letter-spacing: 0.5px;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+button.ghost {
+    background: transparent;
+    border-color: white;
+}
+
+#signup2 {
+    margin-top: 20px;
+}
+
+#signup3 {
+    margin-top: 20px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.sign-in-container {
+    right: 0;
+    width: 50%;
+    z-index: 4;
+}
+
+.sign-up-container {
+    right: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 3;
+}
+
+.sign-up-container2 {
+    right: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-container3 {
+    right: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+    opacity: 1;
+}
+
+.overlay {
+    background: #3d80d9;;
+    color: white;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.logo {
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.lol {
+    height: 80px;
+    border: 2px solid #3d80d9;;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.overlay-panel {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    right: 0;
+    transform: translateX(0);
+}
+
+.overlay-right {
+    transform: translateX(-20%);
+}
+
+.overlay-right2 {
+    transform: translateX(-100%);
+    opacity: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-signup2 {
+    height: 130px;
+}
+
+/* Animation */
+
+/* Move the Sign In to the left */
+
+.container.right-panel-active .sign-in-container {
+    transform: translateX(-30%);
+}
+
+/* Move overlay to right */
+
+.container.right-panel-active .overlay-container {
+    transform: translateX(100%);
+}
+
+/* Bring sign up over sign in */
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(-100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+
+/* Move overlay to left */
+
+.container.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.container.right-panel-active .overlay-right {
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-left {
+    transform: translateX(20%);
+}
+
+/* Teste */
+
+.container.left-panel-active .sign-up-container {
+    transform: translateX(100%);
+}
+
+.container.left-panel-active .sign-in-container {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.container.left-panel-active .sign-up-container2 {
+    transform: translateX(-100%);
+    opacity: 1;
+    z-index: 6;
+}
+
+.container.left-panel-active .overlay-right {
+    transform: translateX(100%);
+}
+
+.container.left-panel-active .overlay-right2 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.container.left-panel-active2 .sign-up-container2 {
+    transform: translateX(100%);
+    opacity: 0;
+    z-index: 0;
+}
+
+.container.left-panel-active2 .sign-up-container3 {
+    transform: translateX(-100%);
+    opacity: 1;
+    z-index: 7;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 70%;
+        min-height: 700px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .sign-up-container button {
+        margin-top: 10px;
+    }
+
+    .sign-up-container h1 {
+        margin-bottom: 5px;
+    }
+
+    .form-container form{
+        height: 50%;
+        width: 180%;
+        padding: 0px;
+    }
+
+    .sign-in-container {
+        right: 45%;
+        top: 0;
+    }
+
+    .sign-up-container {
+        right: 45%;
+        top: 0;
+    }
+
+    .overlay-container {
+        top: 50%;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+        height: 50%;
+    }
+
+    .overlay {
+        left: 0%;
+        width: 100%;
+        height: 200%;
+        transform: translateY(0);
+    }
+
+    .logo {
+        margin-top: 15px;
+        height: 50px;
+    }
+
+    .overlay-panel {
+        position: absolute;
+        justify-content: flex-start;
+        padding: 40px;
+        transform: translateY(0);
+        transition: transformY 0.6s ease-in-out;
+    }
+
+    .overlay-left {
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    .overlay-right {
+        width: 100%;
+        transform: translateY(50%);
+    }
+
+    .container.right-panel-active .sign-in-container {
+        transform: translateY(50%);
+    }
+
+    .container.right-panel-active .overlay-container {
+        transform: translateY(-100%);
+    }
+
+    .container.right-panel-active .sign-up-container {
+        transform: translateY(50%);
+        opacity: 1;
+        z-index: 5;
+    }
+
+    .container.right-panel-active .overlay {
+        transform: translateY(-50%);
+    }
+
+    .container.right-panel-active .overlay-right {
+        transform: translateY(50%);
+    }
+
+    .container.right-panel-active .overlay-left {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 540px) {
+
+    .container {
+        min-height: 500px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+
+    }
+
+    .sign-in-container h1 {
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .overlay-left h1 {
+        padding: 0 20px;
+    }
+
+    .overlay-left p {
+        margin: 10px 0 15px;
+        padding: 0 20px;
+    }
+
+    .overlay-right h1 {
+        padding: 0 20px;
+    }
+
+    .overlay-right p {
+        margin: 10px 0 15px;
+        padding: 0 20px;
+    }
+    
+    a {
+        font-size: 0.6rem;
+        margin: 8px 0 16px;
+    }
+
+    .logo {
+        margin: 10px 0 15px;
+        height: 40px; 
+    }
+
+    .overlay-right img {
+        margin-top: 20px;
+    }
+
+    .form-container input {
+        padding: 10px 7.5px;
+        font-size: 0.67em;
+    }
+
+    .sign-up-container input {
+        margin: 5px;
+    }
+
+    .sign-up-container h1 {
+        margin: 0;
+    }
+
+    .sign-up-container button{
+        margin-top: 4px;
+    }
+
+    button {
+        padding: 6px 22.5px;
+        font-size: 0.7rem;
+
+    }
+
+    .overlay-panel {
+        padding: 0;
+        padding-top: 5%;
+    }
+
+}
+
+
+
+
+

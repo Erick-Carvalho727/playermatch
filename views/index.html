@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="sortcut icon" type="image/x-icon" href="/public/imagens/icon4.png" >
+    <title>PlayerMatch</title>
+
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+    </head>
+
+    <body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Crie sua conta agora!</h1>
+                    <input type="text" id="username-sign-up" placeholder="Usuário" >
+                    <input type="email" id="email" placeholder="Email" >
+                    <input type="password" id="password-sign-up" placeholder="Senha" >
+                    <input type="password" id="re-password" placeholder="Confirme sua senha" >
+                    <button id="signup">Avançar</button>
+                </form>
+            </div>
+            <div class="form-container sign-up-container2">
+                <h1>Selecione os jogos que você joga:</h1>
+                <img src="/public/imagens/lol.png" alt="" class="lol">
+                <input type="checkbox">
+                <button id="signup2">Avançar</button>
+            </div>
+            <div class="form-container sign-up-container3">
+                <h1>Insira mais informações sobre o League Of Legends:</h1>
+                <input type="text" id="nickname" placeholder="Nickname">
+                <input type="text" id="elo" placeholder="Elo">
+                <input type="text" id="position" placeholder="Posição">
+                <input type="text" id="question-forfun" placeholder="Gosta de jogar mais forfun ou competitivamente?">
+                <button id="signup3">Cadastrar</button>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#" method="POST">
+                    <h1>Entrar no PlayerMatch</h1>
+                    <input type="text" id="usarname-sign-in" placeholder="Usuário" required>
+                    <input type="password" id="password-sign-in" placeholder="Senha" required>
+                    <a href="#">Esqueci minha senha</a>
+                    <button>Entrar</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <img src="/public/imagens/logo.svg" alt="Logo do PlayerMatch" class="logo">
+                        <h1>Seja bem vindo ao PlayerMatch!!</h1>
+                        <p>É novo aqui? Então não perca tempo! Crie sua conta agora e ache seu Player ideal!!</p>
+                        <button class="ghost" id="sign-up">Cadastre-se</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <img src="/public/imagens/logo.png" alt="Logo do PlayerMatch" class="logo logo-signup">
+                        <div class="overlay-textbt-right">
+                            <h1>Seja bem vindo de volta!!</h1>
+                            <p>Já conhece o lugar? Então entre já com a sua conta pessoal!!</p>
+                            <button class="ghost" id="sign-in">Entrar</button>
+                        </div>
+                    </div>
+                    <div class="overlay-panel overlay-right2">
+                        <img src="/public/imagens/logo.png" alt="Logo do PlayerMatch" class="logo logo-signup2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.all.min.js"></script>
+
+        <script src="/public/js/main.js"></script>
+    </body>
+</html>
