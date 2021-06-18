@@ -1,0 +1,88 @@
+.notification {
+    margin-top: 130px;
+    margin-left: 130px;
+    max-width: 100%;
+    padding: 0 70px 0 70px;
+}
+
+.tittle1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #B7E7F3;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.notification1 {
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0%;
+    font-family: 'Raleway', sans-serif;
+    color: #B7E7F3;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.name1 {
+    font-size: 25px;
+}
+
+.message1 {
+    font-size: 20px;
+    color: #3D80D9;
+}
+
+.user-png2 {
+    height: 70px;
+    width: 70px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+}
+
+.div1 {
+    display: flex;
+}
+
+.div2 {
+    display: block;
+    padding-left: 35px;
+}
+
+.matchesrequest1 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.request1 {
+    font-family: 'Raleway', sans-serif;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0%;
+    border-radius: 15px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+}
+
+.div3 h2 {
+    font-size: 25px;
+    color: #B7E7F3;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.svg1 {
+    margin-right: 30px;
+}

@@ -1,0 +1,259 @@
+.configuration {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 130px;
+    margin-left: 130px;
+    max-width: 100%;
+    padding: 0 70px 70px 70px;
+}
+
+.conf1 {
+    margin-top: 20px;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 80%;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.user-img {
+    display: inline-flex;
+    padding: 30px;
+}
+
+.points {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+}
+
+.user-configuration {
+    height: 90px;
+    width: 90px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+}
+
+.conf-word {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.conf-word h2 {
+    display: block;
+    font-size: 25px;
+    color: #B7E7F3;
+    margin: 0;
+}
+
+.conf-word h3 {
+    display: block;
+    font-size: 19px;
+    color: #00FD5D;
+    margin: 0;
+}
+
+.information {
+    background-color: #0B1C26;
+    padding: 20px;
+    margin: 0 30px 20px;
+    border-radius: 15px;
+}
+
+.email1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email1 h3 {
+    color: #3D80D9;
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.email1 p {
+    color: #B7E7F3;
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.email1 a {
+    font-size: 18px;
+    color: #3D80D9;
+    outline: none;
+    text-decoration: none;
+}
+
+.senhas {
+    margin-top: 20px;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.senhas h2 {
+    color: #B7E7F3;
+    padding-bottom: 20px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.senhas p {
+    color: #3D80D9;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.button1 {
+    background: linear-gradient(360deg, #003681, #4A8EE8);
+    border-radius: 15px;
+    color: #0B1C26;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: transform 80ms ease-in;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background: linear-gradient(360deg, #003681, #4A8EE8);
+    border-radius: 15px;
+    color: #0B1C26;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: transform 80ms ease-in;
+}
+
+.button1:active {
+    transform: scale(0.95);
+}
+
+.button2:active {
+    transform: scale(0.95);
+}
+
+.senhas1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.senhas1 p {
+    margin: 0;
+    padding: 0;
+}
+
+.svg2 {
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+}
+
+.conf2 {
+    margin-top: 20px;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 80%;
+    padding: 30px 30px 15px 30px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+select {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    border: 0!important;
+    background: #0B1C26;
+    color: #B7E7F3;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.idioma {
+    position: relative;
+}
+
+.seta {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 13px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.conf2 h2 {
+    color: #B7E7F3;
+    font-size: 25px;
+    margin: 0;
+}
+
+.conf2 h3 {
+    color: #B7E7F3;
+    font-size: 20px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.formgroup label{
+    padding-left: 10px;
+    color: #B7E7F3;
+    cursor: pointer;
+}
+
+.form {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #3279A5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio:before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #3D80D9;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.radio:checked:before {
+    opacity: 1;
+}

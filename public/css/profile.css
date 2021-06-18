@@ -1,0 +1,231 @@
+.home-fluid {
+    margin-top: 130px;
+    padding-left: 130px;
+    max-width: 100%;
+}
+
+.profile-user {
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 95px;
+    margin-right: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.user-img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+    margin: 0 auto;
+    right: 30.5%;
+    top: -75px;
+}
+
+.edit-profile {
+    position: absolute;
+    right: 53px;
+    top: 20px;
+}
+
+.username {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #B7E7F3;
+    display: block;
+    padding: 100px 0 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.profile-barra {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.level {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 43px;
+    display: flex;
+    justify-content: space-between;
+    color: #3D80D9;
+}
+
+.gamestats {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 43px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: #B7E7F3;
+    margin: 20px 0 36px;
+}
+
+.gamestats h2 {
+    font-size: 25px;
+}
+
+.gamestats h2 span {
+    color: #3D80D9;
+}
+
+.h2stats {
+    padding-top: 10px;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 43px;
+}
+
+.elo {
+    height: 140px;
+    width: 140px;
+}
+
+.league{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #3D80D9;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin: 0;
+}
+
+.gamestats1 {
+    font-family: 'Raleway', sans-serif;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 94%;
+    height: 300px;
+    margin-right: 70px;
+    margin-top: 95px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+}
+
+.gamestats1 h2 {
+    font-size: 25px;
+}
+
+.gamestats-word {
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gamestats1 .span1 {
+    color: #3D80D9;
+}
+
+.gamestats1 .span2 {
+    color: #B7E7F3;
+}
+
+.gamestats1 .span3 {
+    color: #3279A5;
+}
+
+.divisor22 {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.h2-gamestats1 {
+    padding-bottom: 12px;
+}
+
+.bestchamp {
+    color: #3D80D9;
+    padding-bottom: 20px;
+}
+
+.champion {
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-png3 {
+    height: 130px;
+    width: 130px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+}
+
+.grafico {
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skinsbests {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #B7E7F3;
+    padding: 40px 0 20px;
+}
+
+.skins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.skins1 {
+    background-image: url("/public/imagens2/90-908559_best-gnar-wallpaper-id-gentleman-gnar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 68%;
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+    border-radius: 20px;
+}
+
+.skins2 {
+    background-image: url("/public/imagens2/Ezreal-Pulsefire.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 45%;
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+    border-radius: 20px;
+}
+
+.skins3 {
+    background-image: url("/public/imagens2/sss-banner_0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 83%;
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+    border-radius: 20px;
+}
+
+.skins4 {
+    background-image: url("/public/imagens2/maxresdefault.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 63%;
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.52);
+    border-radius: 20px;
+}

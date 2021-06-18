@@ -1,0 +1,100 @@
+.playermatch-btn {
+    cursor: default;
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0%;
+}
+
+.playermatch-btn:active {
+    transform: scale(1);
+}
+
+.playermatch-div {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 130px;
+    max-width: 100%;
+    padding: 0 70px 0px 200px;
+    
+}
+
+.matching {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.user11 {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3D80D9;
+    border-radius: 50%;
+}
+
+.word {
+    text-align: center;
+    color: #B7E7F3;
+    position: absolute;
+    left: 480px;
+}
+
+.word h2 {
+    padding-bottom: 10px;
+}
+
+.fon {
+    position: absolute;
+    left: 840px;
+    top: 600px;
+}
+
+.posicoes {
+    position: absolute;
+    left: 905px;
+    top: 660px;
+    color: #3D80D9;
+    font-size: 15px;
+}
+
+.posicoes h2 {
+    font-size: 20px;
+}
+
+.matching2 {
+    position: absolute;
+    left: 950px;
+    top: 220px;
+    color: #B7E7F3;
+}
+
+.pontinhos {
+    position: absolute;
+    top: 600px;
+    right: 420px;
+}
+
+.pontinhos span {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: #3D80D9;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: dots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.pontinhos span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.pontinhos span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes dots {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(10px);
+    }
+}

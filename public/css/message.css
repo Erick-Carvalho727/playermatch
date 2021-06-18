@@ -1,0 +1,133 @@
+.messages {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 130px;
+    max-width: 100%;
+    padding: 0 70px 0px 130px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.conversation {
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.conversation h2, p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.conversation h2 {
+    color: #B7E7F3;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.conversation p {
+    color: #3D80D9;
+    font-size: 15px;
+}
+
+.a {
+    position: relative;
+}
+
+.conversation1:before {
+    content: '';
+    background: #B7E7F3;
+    position: absolute;
+    width: 5px;
+    height: 166px;
+    left: 0;
+}
+
+.user-pngmess {
+    height: 70px;
+    width: 70px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+}
+
+.messagewrite {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.playermess {
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    left: 530px;
+    right: 0;
+    padding: 15px 20px;
+}
+
+.user-mess1 {
+    height: 40px;
+    width: 40px;
+    border: solid 2px #3D80D9;
+    border-radius: 100px;
+}
+
+.playermess1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.playermess1 h2{
+    color: #B7E7F3;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.svg2 {
+    margin-right: 30px;
+}
+
+.svg1 {
+    height: 25px;
+    width: 25px;
+}
+
+.playermess3 {
+    background: transparent linear-gradient(180deg, #22455C 0%, #153142 30%, #0B2235 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 530px;
+    padding: 15px 20px;
+}
+
+.text1 {
+    background: #0B1C26 0% 0% no-repeat padding-box;
+    color: #B7E7F3;
+    width: 1200px;
+    border: none;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+
+.text1, .text1:focus {
+    outline: none;
+}
+
+.svg4 {
+    height: 25px;
+    width: 25px;
+}
+
+.svg5 {
+    margin-left: 30px;
+    margin-right: 15px;
+}

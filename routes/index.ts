@@ -5,20 +5,28 @@ class Index {
 		res.sendFile(app.dir.views + "/index.html");
 	}
 
-	public async empresas(req: app.Request, res: app.Response) {
-		res.sendFile(app.dir.views + "/empresas.html");
+	public async home(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/home.html");
 	}
 
-	public async faq(req: app.Request, res: app.Response) {
-		res.sendFile(app.dir.views + "/faq.html");
+	public async profile(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/profile.html");
 	}
 
-	public async signup(req: app.Request, res: app.Response) {
-		res.sendFile(app.dir.views + "/signup.html");
+	public async notifications(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/notifications.html");
 	}
 
-	public async login(req: app.Request, res: app.Response) {
-		res.sendFile(app.dir.views + "/login.html");
+	public async message(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/message.html");
+	}
+
+	public async configuration(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/configuration.html");
+	}
+
+	public async playermatch(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/playermatch.html");
 	}
 }
 

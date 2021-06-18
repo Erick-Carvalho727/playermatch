@@ -23,7 +23,7 @@ signUpButton.addEventListener('click', () => {
 	let confirmarSenha = inputConfirmarSenha.value;
 
 	if (!login) {
-	  Swal.fire("Oops...", "Usuário inválido!", "error");
+	  Swal.fire("Oops...", "Login inválido!", "error");
 	  return;
 	}
 
@@ -71,7 +71,7 @@ signUpButton3.addEventListener('click', () => {
 	  data: usuario,
 	  success: function (dados) {
 
-		Swal.fire("Sucesso!", "Usuário cadastrado com sucesso!", "success");
+		Swal.fire("Sucesso!", "sua foi conta criada no PlayerMatch!", "success");
 
 	  },
 	  error: function () {
